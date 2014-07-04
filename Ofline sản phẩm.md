@@ -77,3 +77,25 @@ Vậy là bạn có đến 30% thành công? Đừng mừng vội, cho đến kh
 Rất có thể khả năng thành công bạn dày công xây đắp trên kia tụt thảm hại, thậm chí về không.
 
 Tại sao?
+
+###Opt4
+
+OK, vậy là bạn đã có một câu chuyện hay để kể, một món hàng hay để bán hoặc một dịch vụ tốt để kiếm tiền.
+
+Bạn sẽ kể câu chuyện ấy như thế nào?
+
+Và bằng gì?
+
+Website? Mạng xã hội? Diễn đàn?
+
+Gửi tờ rơi, thư tiếp thị, catalogue?
+
+Tổ chức sự kiện? Mời trải nghiệm?
+
+Quảng cáo trên truyền hình, phát thanh, tạp chí?
+
+Câu chuyện chỉ giúp bạn có được những khách hàng tiềm năng.
+
+Vậy điều gì biến tiềm năng thành doanh số?
+
+Công cụ bán hàng. Nó là những gì vậy?
