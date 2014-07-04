@@ -1,0 +1,7 @@
+- e-catalogue là cái gì?
+- ai sẽ cần đến nó?
+- nó phục vụ gì cho việc kinh doanh?
+- dùng nó như thế nào?
+- giống và khác nhau với website?
+- cần những gì để làm?
+- lưu ý những gì khi làm e-catalogue?
