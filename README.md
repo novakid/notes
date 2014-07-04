@@ -1,3 +1,3 @@
 #notes
 
-http://novakid.github.io/notes
+http://novakid.github.com/notes
