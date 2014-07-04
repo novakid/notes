@@ -35,3 +35,15 @@ Tại sao có những hãng sản xuất đồ thể thao lập trang web chỉ 
 Website của bạn phải cạnh tranh với những gì? *(xem list opt1)*
 
 Đối thủ cạnh tranh lớn nhất chính là bạn. Nói cách khác, sự thành công của bạn phụ thuộc vào cuộc cạnh tranh này. Nếu trang web thắng, bạn thua, và ngược lại. Bạn muốn mình ở trong trường hợp nào?
+
+###Opt3:
+
+Bạn khởi động việc kinh doanh và có một câu chuyện hay để kể với khách hàng về sản phẩm, dịch vụ của mình. Xin chúc mừng, sự khởi nghiệp của bạn đã nắm chắc 10% thành công.
+
+Bạn đem câu chuyện đó ra nói với khách hàng, và họ hào hứng nghe bạn kể. Bạn có thêm 5%. Họ tin tưởng vào bạn, bạn có thêm 5% nữa. Bạn tặng quà, thêm 5%. Khách hứa sẽ mua, thêm 5%. Khách đòi bạn gửi báo giá, thêm 5%.
+
+Vậy là bạn có đến 30% thành công? Đừng mừng vội, cho đến khi khách vào thăm trang web của bạn.
+
+Rất có thể khả năng thành công bạn dày công xây đắp trên kia tụt thảm hại, thậm chí về không.
+
+Tại sao?
