@@ -1,5 +1,5 @@
 #notes
 
-:loudspeaker: http://novakid.github.com/notes
+:loudspeaker: - http://novakid.github.com/notes
 
-:pill: http://www.emoji-cheat-sheet.com/
+:pill: - http://www.emoji-cheat-sheet.com/
