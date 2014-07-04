@@ -1,6 +1,6 @@
 Mục đích là gì? Đại khái đang muốn thuyết phục khách hàng sử dụng dịch vụ thiết kế catalogue sản phẩm. 
 
-Dịch vụ này kết hợp các công nghệ của web. Trình bày như một trang web, nhưng lại xem được offline. Phương tiện có thể là usb, cd, dvd hoặc LAN. Chạy tốt cả trên máy tính lẫn thiết bị di động.
+Dịch vụ này kết hợp các công nghệ của web. Trình bày như một trang web, nhưng lại xem được offline. Phương tiện có thể là usb, cd, dvd hoặc LAN. Chạy tốt cả trên máy tính lẫn thiết bị di động. Thậm chí ngay cả bản để in và form tương tác/liên lạc cũng đã được chuẩn bị sẵn sàng.
 
 Ưu điểm lớn nhất so với online catalogue, là p.tiện này không hạn chế dung lượng file. Một ưu điểm khác, đó là sự tập trung. Người xem không bị phân tâm vì đợi tải dữ liệu từ internet, hoặc ảnh hưởng vì khả năng di chuyển tự do trên web. Đang xem catalogue sản phẩm, khách lại search thông tin về người mẫu chả hạn.
 
