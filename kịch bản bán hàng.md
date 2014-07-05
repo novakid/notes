@@ -12,3 +12,14 @@ Nó phải được thể hiện ra nơi bạn làn việc. Khách phải nhìn 
 
 ---
 
+Những câu chuyện ở đây chỉ là giả định. Tên nhân vật chỉ nhằm minh hoạ và không nhất thiết phải khác tên thật.
+
+---
+
+Mobimart là một cửa hàng chuyên bán điện thoại di động. Gần đây, sự cạnh tranh trở nên ngày càng khốc liệt. Doanh số của cửa hàng không đủ chi trả cho chi phí hoạt động của nó. Lãnh đạo cửa hàng nhận thấy họ cần thay đổi, tự làm mới mình để kéo lại sự quan tâm của khách hàng.
+
+---
+
+Mgc là tên của một doanh nghiệp quảng cáo nhỏ. Lịch sử hoạt động của cty đã từng có những thành công lớn. Nó cung cấp ra thị trường những sản phẩm thiết kế có hàm lượng chất xám cao. Hiện giờ khách hàng không còn quan tâm đến dịch vụ này. Họ có nhiều nguồn tham khảo, và nhận thấy rằng việc thiết kế họ có thể tự làm. Lãnh đạo cty đang tìm cách thoát khỏi tình thế này.
+
+---
