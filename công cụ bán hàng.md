@@ -17,3 +17,5 @@ Thư tiếp thị, sự kiện, gặp gỡ trực tiếp vẫn tiếp tục là 
 Nếu gặp khách hàng, bạn sẽ cho họ xem gì ngoài trang web? Trang web lúc nào xem chả được. Liệu khách hàng sẽ nghe bạn nói không, nếu họ gặp bạn với tâm lý đó?
 
 Làm bộ công cụ kết hợp được không?
+
+Sử dụng công cụ bán hàng thế nào? Tại sao người ta cần nó?
