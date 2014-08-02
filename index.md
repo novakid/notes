@@ -18,5 +18,5 @@ Lưu ý: Không cần dùng [Github] cũng được. Nếu chỉ sync dữ liệ
 [Github]: http://github.com
 
 ##What is going on?
-Trang web nháp của Hà Việt: http://haviet.github.io/
+Trang web nháp của Hà Việt (http://haviet.github.io/) đang bị lỗi hiển thị trên Chrome for Mac. Đã kiểm tra lại code nhưng chưa phát hiện vấn đề gì.
 
