@@ -9,7 +9,12 @@ Linh hoạt trong việc sử dụng các thư viện Javascript và CSS có s�
 
 **Responsive layout** là bắt buộc trong thiết kế. Website cần chạy tốt trên các thiết bị di động với layout hợp lý.
 
-###Phương án lựa chọn:
+##Phương án lựa chọn:
 Đã dùng thử và cân nhắc giữa khá nhiều phương án (kể cả các CMS lớn như Drupal, Joomla, Wordpress...). Cuối cùng chọn sử dụng bộ công cụ Jekyll + Github để xây dựng và chạy thử. Các CMS quá cồng kềnh đối với các yêu cầu đã nêu. 
 
 Mặt khác với yêu cầu hiển thị dữ liệu đặc thù của c.ty (tích hợp với google maps), các CMS nêu trên cần có plugin để thực hiện. Quá phức tạp cho việc code và bảo trì.
+
+##Tại sao không phải là các CMS khác?
+1. Không nắm rõ cách sử dụng -> khó triển khai, khó bảo trì & cập nhật.
+2. Github tích hợp Jekyll --> dễ xem, dễ sửa, dễ quản lý code.
+3. Static web, sử dụng opensource --> không lo vấn đề bảo mật & bản quyền.

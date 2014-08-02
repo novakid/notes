@@ -1,7 +1,7 @@
 ##Simple HTTP Server
 Trên Mac có [Anvil] dùng rất hay, trên PC thì sao?
 
-Tìm trên mạng thấy phần lớn các kết quả đều dẫn về [Mongoose]. Tải về dùng thử thấy rất OK. Kết hợp với [MDwiki] và [Github] làm documentation là hoàn cbn hảo rồi.
+Tìm trên mạng thấy phần lớn các kết quả đều dẫn về [Mongoose]. Tải về dùng thử thấy rất OK. Kết hợp với [MDwiki] và [Github] làm documentation là hoàn cbn hảo rồi. Còn mỗi điểm lăn tăn là cái [MDwiki] này xử lý dữ liệu hơi chậm khi dùng online. 
 
 ##Documentation Workflow:
 - Mac: [Anvil] + DocumentFolder + [github app for Mac](https://mac.github.com/) + CloudApps (dropbox, copy, onedrive etc...)
@@ -20,3 +20,14 @@ Lưu ý: Không cần dùng [Github] cũng được. Nếu chỉ sync dữ liệ
 ##What is going on?
 Trang web nháp của Hà Việt (http://haviet.github.io/) đang bị lỗi hiển thị trên Chrome for Mac. Mới kiểm tra lại thì cả Chrome trên PC cũng dính. Mà lại bị có mỗi homepage (đcm đen!). Kiểm tra lại code chưa phát hiện vấn đề gì.
 
+##Something comes up
+- http://statamic.com/ - flatfile cms, template tương tự jekyll, viết bằng PHP
+- http://picocms.org/index.html - như trên.
+- http://lostechies.com/gabrielschenker/2014/02/26/angular-js-blog-series-table-of-content/ - learning Angularjs
+- http://sahatyalkabov.com/create-a-tv-show-tracker-using-angularjs-nodejs-and-mongodb/ - xây dựng webapp với angular, nodejs & mongodb, bài dài, nhiều vấn đề lý thú.
+- http://leftshift.io/8-tips-for-angular-js-beginners/ - một số lưu ý với người mới bắt đầu.
+
+##New tool
+- Sketch 3 là một phần mềm dành cho designer. Nó định hướng vào việc thiết kế giao diện. Chương trình khá nhẹ, khởi động nhanh, chạy nhanh. Tính năng vừa đủ và khá tập trung. Tuy nhiên ngoài làm graphic ra nó chả làm được việc gì khác.
+- Một trong những phần mềm mới ra mắt gần đây dùng cho làm web là Macaw. Mới dùng thử nhưng thấy hơi khó hiểu mặc dù không nhiều tính năng lắm. Macaw thiên về layout. Có lẽ nên dùng kết hợp với thằng Sketch nói trên mới ổn.
+- Một app khác cũng rất đáng cân nhắc là Adobe Muse. Cách dùng rất dễ với những người quen giao diện điều khiển của Adobe. Thằng này có phần quản lý cấu trúc trang rất hay. Tuy nhiên nếu dùng nó để build web thì về sau sẽ rất lằng nhằng trong việc sửa code hoặc thêm thắt này nọ.
