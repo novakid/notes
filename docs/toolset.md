@@ -18,3 +18,12 @@ Mặt khác với yêu cầu hiển thị dữ liệu đặc thù của c.ty (t�
 1. Không nắm rõ cách sử dụng -> khó triển khai, khó bảo trì & cập nhật.
 2. Github tích hợp Jekyll --> dễ xem, dễ sửa, dễ quản lý code.
 3. Static web, sử dụng opensource --> không lo vấn đề bảo mật & bản quyền.
+
+##Quy trình làm việc như thế nào?
+Việc lựa chọn phương án thiết kế phù hợp mất khá nhiều thời gian. Quá trình thiết kế luôn phải cân nhắc để xác định kích cỡ các thành phần hiển thị sao cho website không bị vỡ layout khi hiển thị trên nhiều loại màn hình khác nhau.
+
+Sau khi phác thảo phần cấu trúc, việc thiết kế các thành phần đồ hoạ được làm chủ yếu bằng Photoshop và Illustrator. Dựa trên layout này, coder thực hiện chuyển thành html & css để dựng website.
+
+Vấn đề cơ sở dữ liệu sản phẩm cũng được giải quyết trong lúc này. Điều kiện cty không thể phân riêng một người chuyên trách, do đó cơ sở dữ liệu cần đơn giản và dễ cập nhật. Yêu cầu là một người có kiến thức thông thường về phần mềm văn phòng có thể cập nhật được mà không cần học thêm kiến thức mới.
+
+Lựa chọn cuối cùng là sử dụng Google Spreadsheet làm backend database. Bất kỳ ai dùng được excel cũng có thể xem và sửa bảng dữ liệu này. 
