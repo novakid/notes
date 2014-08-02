@@ -10,6 +10,8 @@ Tìm trên mạng thấy phần lớn các kết quả đều dẫn về [Mongoo
 - iPad: Textastic + Editorial + CloudApps (dropbox, copy, onedrive etc...)
 - Other tablet, smart phone etc: Online, browse to [Github].
 
+Lưu ý: Không cần dùng [Github] cũng được. Nếu chỉ sync dữ liệu qua lại thì dùng mấy cái CloudApps cũng đủ rồi. Khi nào cần publish lên mạng giống như wiki hay blog gì đó thì mới dùng đến [Github].
+
 [Mongoose]: https://code.google.com/p/mongoose/
 [MDwiki]: http://dynalon.github.io/mdwiki/#!index.md
 [Anvil]: http://anvilformac.com/
