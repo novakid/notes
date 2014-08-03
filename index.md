@@ -20,12 +20,24 @@ Lưu ý: Không cần dùng [Github] cũng được. Nếu chỉ sync dữ liệ
 ##What is going on? <i class="fa fa-thumbs-o-down"></i>
 Trang web nháp của Hà Việt (http://haviet.github.io/) đang bị lỗi hiển thị trên Chrome for Mac. Mới kiểm tra lại thì cả Chrome trên PC cũng dính. Mà lại bị có mỗi homepage (đcm đen!). Kiểm tra lại code chưa phát hiện vấn đề gì.
 
+Xử lý lỗi npm không cài đặt được:
+
+    sudo chown -R xabeng:xabeng `npm -g bin`
+
 ##Something comes up <i class="fa fa-bookmark-o"></i>
 - http://statamic.com/ - flatfile cms, template tương tự jekyll, viết bằng PHP
 - http://picocms.org/index.html - như trên.
 - http://lostechies.com/gabrielschenker/2014/02/26/angular-js-blog-series-table-of-content/ - learning Angularjs
 - http://sahatyalkabov.com/create-a-tv-show-tracker-using-angularjs-nodejs-and-mongodb/ - xây dựng webapp với angular, nodejs & mongodb, bài dài, nhiều vấn đề lý thú.
 - http://leftshift.io/8-tips-for-angular-js-beginners/ - một số lưu ý với người mới bắt đầu.
+- http://blog.pangyanhan.com/posts/2013-08-27-ngtut.html
+- https://github.com/maxogden/art-of-node/#the-art-of-node
+
+---
+
+- http://hexo.io/ - rất hay! mới đọc qua thấy cũng dễ dùng. Một công cụ đầy tiềm năng. <span style="color:red;">Link to</span> [hexo.md](stories/hexo.md)
+
+---
 
 ##New tool <i class="fa fa-pencil-square-o"></i>
 - Sketch 3 là một phần mềm dành cho designer. Nó định hướng vào việc thiết kế giao diện. Chương trình khá nhẹ, khởi động nhanh, chạy nhanh. Tính năng vừa đủ và khá tập trung. Tuy nhiên ngoài làm graphic ra nó chả làm được việc gì khác.
