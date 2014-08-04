@@ -32,6 +32,8 @@ Xử lý lỗi npm không cài đặt được:
 - http://leftshift.io/8-tips-for-angular-js-beginners/ - một số lưu ý với người mới bắt đầu.
 - http://blog.pangyanhan.com/posts/2013-08-27-ngtut.html
 - https://github.com/maxogden/art-of-node/#the-art-of-node
+- https://github.com/sindresorhus/awesome-nodejs
+- https://medium.com/@dickeyxxx/best-practices-for-building-angular-js-apps-266c1a4a6917
 
 ---
 
