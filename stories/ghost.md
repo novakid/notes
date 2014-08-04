@@ -8,6 +8,25 @@ Chạy trên virtual server (ubuntu) cần sửa ip và port trong `config.js` �
 
 Tôi chỉ không thích thằng này ở chỗ giao diện mặc định của nó dùng font không hỗ trợ tiếng Việt, soạn thảo và xem trang web vẫn hiển thị được nhưng bị lỗi, nhìn hơi khó chịu.
 
+##Themming Ghost
+- http://docs.ghost.org/themes/
+- http://webdesign.tutsplus.com/series/building-a-ghost-theme-from-scratch--webdesign-16179
+- http://www.allaboutghost.com/the-best-free-ghost-themes-february-2014/
+
+##Font Problem (Admin interface)
+Font Open Sans dùng trong giao diện điều khiển của Ghost có thể hiển thị tiếng Việt ở tất cả các kiểu chữ. Tất nhiên bọn làm ra sẽ không include cả tiếng Việt vào đấy trừ khi trong số bọn chúng có thằng là người Việt.
+
+File `ghostblog/core/server/views/default.hbs`, dòng 32, thay
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+
+Bổ sung thêm nếu dùng font monospace của Google font:
+
+    <link href='http://fonts.googleapis.com/css?family=Cousine:400,400italic,700,700italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+
+File `ghostblog/core/server/views/editor.hbs`, dòng 7, thêm `Cousine` vào `font-family`
+
+Làm theo 2 bước trên mới chỉ giải quyết được vấn đề hiển thị tiếng Việt với font thường (Open Sans), font trong editor vẫn là Courier như mặc định. Có thể còn cái css style nào đó tham gia điều khiển font ở chỗ này. Chưa tìm ra.
 
 
 [Hexo]: http://hexo.io/

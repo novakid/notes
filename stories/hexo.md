@@ -9,6 +9,7 @@ Có một lưu ý nhỏ là để npm chạy được mà không cần `sudo` th
 Ở server ubuntu của tôi dùng thế này:
 
     sudo chown -R xabeng:xabeng `npm -g bin`
+    //lưu ý là không phải dấu nháy đơn '' nhé. Dùng cái dấu ` dưới phím Esc ý.
 
 Xử lý xong đám lỗi `npm install` thì mọi việc đều suôn sẻ.
 

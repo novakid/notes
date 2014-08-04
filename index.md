@@ -37,8 +37,8 @@ Xử lý lỗi npm không cài đặt được:
 
 ---
 
-- http://hexo.io/ - rất hay! mới đọc qua thấy cũng dễ dùng. Một công cụ đầy tiềm năng. <span style="color:red;">Link to</span> [hexo.md](stories/hexo.md)
-- https://ghost.org/ - tương tự hexo, ghost đòi hỏi phải có `nodejs` để chạy. <span style="color:red;">Linkto:</span> [ghost.md](stories/ghost.md).
+- http://hexo.io/ - rất hay! mới đọc qua thấy cũng dễ dùng. Một công cụ đầy tiềm năng. <span style="color:red;">Xem thêm:</span> [hexo.md](stories/hexo.md)
+- https://ghost.org/ - tương tự hexo, ghost đòi hỏi phải có `nodejs` để chạy. <span style="color:red;">Xem thêm:</span> [ghost.md](stories/ghost.md).
 
 ---
 
