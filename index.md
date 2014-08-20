@@ -1,3 +1,9 @@
+##Webstorm, SublimeText etc...
+Hàng đây: http://www.jetbrains.com/webstorm/. Dùng rất tiện. Nhiều tool thấy thiếu ở Notepad++ và SublimeText đều được tích hợp cả ở đây. Mới dùng để dựng một cái [khung phát triển web dựa trên Webstorm và UbuntuServer](stories/webstorm-with-ubuntuserver.md). Khá ổn.
+
+##Harp vs. Jekyll
+http://www.quora.com/Web-Development/What-is-the-Harp-Platform-and-Jekyll. Trước giờ vẫn mải miết mải miết với jekyll, giờ mới biết có một cái app cực hay cho web developer. Mới dùng thử, chưa có nhiều nhận xét nhưng tổng quan thì thấy dùng Harp gọn gàng hơn nhiều.
+
 ##Simple HTTP Server <i class="fa fa-smile-o"></i>
 Trên Mac có [Anvil] dùng rất hay, trên PC thì sao?
 
@@ -20,9 +26,6 @@ Lưu ý: Không cần dùng [Github] cũng được. Nếu chỉ sync dữ liệ
 ##What is going on? <i class="fa fa-thumbs-o-down"></i>
 Trang web nháp của Hà Việt (http://haviet.github.io/) đang bị lỗi hiển thị trên Chrome for Mac. Mới kiểm tra lại thì cả Chrome trên PC cũng dính. Mà lại bị có mỗi homepage (đcm đen!). Kiểm tra lại code chưa phát hiện vấn đề gì.
 
-Xử lý lỗi npm không cài đặt được:
-
-    sudo chown -R xabeng:xabeng `npm -g bin`
 
 ##Something comes up <i class="fa fa-bookmark-o"></i>
 - http://statamic.com/ - flatfile cms, template tương tự jekyll, viết bằng PHP
@@ -34,6 +37,7 @@ Xử lý lỗi npm không cài đặt được:
 - https://github.com/maxogden/art-of-node/#the-art-of-node
 - https://github.com/sindresorhus/awesome-nodejs
 - https://medium.com/@dickeyxxx/best-practices-for-building-angular-js-apps-266c1a4a6917
+- http://webdesign.tutsplus.com/tutorials/how-to-add-branded-branch-locations-to-google-maps--cms-20457 - bài khá chi tiết về sử dụng google maps
 
 ---
 
@@ -46,3 +50,4 @@ Xử lý lỗi npm không cài đặt được:
 - Sketch 3 là một phần mềm dành cho designer. Nó định hướng vào việc thiết kế giao diện. Chương trình khá nhẹ, khởi động nhanh, chạy nhanh. Tính năng vừa đủ và khá tập trung. Tuy nhiên ngoài làm graphic ra nó chả làm được việc gì khác.
 - Một trong những phần mềm mới ra mắt gần đây dùng cho làm web là Macaw. Mới dùng thử nhưng thấy hơi khó hiểu mặc dù không nhiều tính năng lắm. Macaw thiên về layout. Có lẽ nên dùng kết hợp với thằng Sketch nói trên mới ổn.
 - Một app khác cũng rất đáng cân nhắc là Adobe Muse. Cách dùng rất dễ với những người quen giao diện điều khiển của Adobe. Thằng này có phần quản lý cấu trúc trang rất hay. Tuy nhiên nếu dùng nó để build web thì về sau sẽ rất lằng nhằng trong việc sửa code hoặc thêm thắt này nọ.
+-  Mới đăng ký thêm một tk [trello.com](http://trello.com). Trang này chuyên để làm list, cộng tác, chia sẻ... Cơ bản nó gom các danh sách lại thành từng thẻ, các thẻ lại được gom vào thành board. Dùng cũng hay.

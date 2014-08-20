@@ -24,10 +24,58 @@ Bổ sung thêm nếu dùng font monospace của Google font:
 
     <link href='http://fonts.googleapis.com/css?family=Cousine:400,400italic,700,700italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
 
-File `ghostblog/core/server/views/editor.hbs`, dòng 7, thêm `Cousine` vào `font-family`
+Lục lọi các file trong `core` để thay thế `Iconsolata` (ghost dùng font này cho hiển thị code) bằng `Cousine`.
 
-Làm theo 2 bước trên mới chỉ giải quyết được vấn đề hiển thị tiếng Việt với font thường (Open Sans), font trong editor vẫn là Courier như mặc định. Có thể còn cái css style nào đó tham gia điều khiển font ở chỗ này. Chưa tìm ra.
+Thực ra làm đến bước này mới chỉ giải quyết được phần hiển thị tiếng Việt. Quậy nữa cũng được nhưng về sau nâng cấp lại phải làm lại hơi rắc rối. Dùng tạm vậy!
 
+##interesting link:
+- http://mhurwi.com/show-text-with-ghost-and-angular/
+
+##quậy tiếp slg...
+- vấn đề font chữ đã nói ở trên
+- cấu trúc của Ghost có hai phần đáng chú ý ở trang `default.hbs`, là `{{ghost_head}}` trong header và {{ghost_foot}} ở cuối trang (trước khi đóng `</body>`). Mặc định là Ghost sẽ lấy đoạn code được viết trong `core/server/helpers/index.hbs` để chèn vào các vị trí này. 
+    - `{{ghost_head}}` lấy đoạn từ dòng 636 đến 460.
+    - `{{ghost_foot}}` lấy từ 461 đến 475.
+    - Nội dung của nó là những gì mới chỉ hiểu sơ sơ. Không thích cách này lắm vì thằng nào muốn mod theme sâu hơn một tí sẽ phải *hard coding* trong này. Nếu Ghost có API hay plugin gì gì đó để làm việc này thì hay hơn. Hy vọng nó sẽ sớm ra trong những phiên bản tiếp theo.
+    - Lưu ý là `{{ghost_foot}}` sẽ chèn jquery.js vào đấy. Mà cái `jquery` này lại nằm trong `core/built/public` Phiên bản nó đang dùng là 1.11.0. <span style="color:red;">đã thay bằng 1.11.1</span>
+- đang định dùng [backstretch](http://srobbin.com/jquery-plugins/backstretch/) để làm theme vì dễ dùng. Làm slideshow chạy dưới nền cũng hay. Khi dùng chỉ cần lấy cái `backstretch.js` về thôi. Jquery đã include sẵn rồi. ~~Một cái khác cũng rất hay là [anystretch](https://github.com/danmillar/jquery-anystretch) hình như cũng folk từ backstretch về modify thì phải. Có vẻ hay hơn nhưng chưa thử.~~ <span style="color:red;">Sorry, anystretch chỉ dùng được với 1 hình ảnh, không làm slideshow được.</span>
+- thư viện javascript để làm gallery hình ảnh: [baguettebox](https://github.com/feimosi/baguetteBox.js). Thấy cũng khá đơn giản. Sẽ dùng thử vào một lúc nào đó.
+
+##ghost on openshift
+
+Đăng nhập vào cài qua web không được, đành dùng `rhc`. Server cần có sẵn `ruby` và `git`. Lệnh cài đặt:
+
+    sudo gem install rhc
+
+Đợi cài xong, chạy
+
+    rhc setup
+
+Ngoài việc phải nhập username & password, chỉ cần trả lời yes với tất cả các yêu cầu của nó. Lưu ý một chút chỗ này là server cũng cần có sẵn Openssh và đã genrate các key cần thiết.
+
+Cài đặt ghost, lưu ý tôi lấy appname = ghost, anh chị có thể dùng tên khác thoải mái.
+
+    rhc app create ghost nodejs-0.10 --env NODE_ENV=production --from-code https://github.com/openshift-quickstart/openshift-ghost-quickstart.git
+
+Đợi nó cài đặt xong cũng khá lâu. Có thể quá trình cài đặt sẽ tự clone một bản về server. Nếu báo lỗi hoặc bị ngắt giữa chừng (như tôi gặp phải ngày hôm qua) thì chạy tại server: `rhc git-clone ghost` (ghost là appname tôi đã đặt, anh chị có thể dùng tên khác).
+
+Xong phần thiết lập. Với server khác thì sao? Chỉ cần cài `rhc` (như trên). Sau đó `rhc git-clone ghost`.
+
+Làm việc với nó như một git repository bình thường.
+
+Tôi đã thử clone một bản về server, rồi loay hoay thử các kiểu mất nguyên một buổi mà không thể chạy được. Đành để đấy coi như một bản sao lưu. Làm theme cho thằng này cũng đơn giản, nó dùng [handlebar](), cấu trúc cũng khá giống với Liquid của Jekyll.
+
+Làm xong dùng wincsp copy vào thư mục đã clone về. Dùng git push sau khi đã add & commit như thường. Máy ảo openshift sau khi nhận được file sẽ tắt và khởi động lại. Toàn bộ quá trình mất khoảng 3 đến 5 phút (hơi lâu quá đấy!)
+
+Dùng online khá nhanh. Tôi làm ra để viết cho mình nên vẫn cứ dùng hình nền cỡ lớn (khá nặng). Lúc đầu load cũng phải mất đến hơn chục giây mới hiển thị được toàn bộ.
+
+---
+
+Đã làm xong theme và deploy (git push). Có gì lăn tăn về giao diện sẽ gom lại để làm một thể. Làm với Openshift không thể cứ sửa vài chữ rồi lại push lên vô tội vạ. Lâu bỏ mẹ.
+
+Dùng ghost tiện ở chỗ không cần app nào khác tham gia vào quá trình viết bài. Bản thân nó cũng đã có trình soạn thảo hỗ trợ markdown khá tốt.
+
+Điểm trừ của thằng này là nó không hỗ trợ .svg (hơi lạ)
 
 [Hexo]: http://hexo.io/
 [Jekyll]: http://jekyllrb.com/
