@@ -1,3 +1,5 @@
+<strong style="color:red;">update:</strong> Dùng hay nhưng nặng nề quá. Công việc thường này cứ ST và N+ dùng vẫn là hay nhất.
+
 ##dùng làm gì?
 - Webstorm (WS) có cả bộ dùng cho PC, MAC & Linux. Tính năng như nhau, nhưng công cụ tích hợp trong App có vẻ hợp với Linux & Mac hơn (nodejs, bower, grunt, git...).
 - luộc lại từ torrentz.eu như vẫn... :)
