@@ -1,3 +1,6 @@
+##cholangonline
+[cholangonline](cholangonline.md) mới chỉ là những ý tưởng sơ khai. Thách thức cao như núi. Vượt qua được không?
+
 ##Webstorm, SublimeText etc...
 Hàng đây: http://www.jetbrains.com/webstorm/. Dùng rất tiện. Nhiều tool thấy thiếu ở Notepad++ và SublimeText đều được tích hợp cả ở đây. Mới dùng để dựng một cái [khung phát triển web dựa trên Webstorm và UbuntuServer](stories/webstorm-with-ubuntuserver.md). Khá ổn.
 
