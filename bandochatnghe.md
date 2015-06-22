@@ -16,3 +16,5 @@ Lượn vài vòng với anh Gúc, chả thấy trang nào làm một cách tử
 - Qua các trang riêng của Gallery. Tất nhiên vào đó thì sang chảnh cao giá rồi. Nhưng mà có phải ai cũng vào được đéo đâu. Với lại giá cao quá. Chỉ bán cho khoai tây. Ta mua thế đéo.
 - Tự tiếp thị trên mạng xã hội như Facebook chả hạn. Cái này rõ ràng không chuyên và cũng năm ăn năm thua. Mạng xã hội không hẳn là chỗ chuyên bán hàng. Cũng tương tự trên các diễn đàn thôi. Dân tình khen lấy khen để, nhưng mua thì hehe... đéo.
 - Tự lập trang web bày bán. Cái này thì kể cả trang của mấy anh chất nghệ tay to cũng như lồn nói thế cho nhanh. Với lại web của  anh nào lập ra thì chỉ bán riêng hàng của anh ý thôi. Anh khác đéo có cửa.
+
+Mà đcm bọn học nghề design chết đâu hết rồi nhỉ! 
